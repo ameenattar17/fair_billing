@@ -130,7 +130,8 @@ public class fair_billing {
 	  
 	            
 	        // Printing the answer
-	        System.out.print("ALICE99 "+ count +" ");
+	        System.out.println("Username " +" Total Sessions "+" Total duration in seconds : ");
+	        System.out.print("ALICE99 "+"     " +count +"                     ");
 	        System.out.println(differenceInSeconds1 +differenceInSeconds2 +differenceInSeconds3 +differenceInSeconds4 +differenceInSeconds5);
 
 			}
@@ -209,7 +210,7 @@ public class fair_billing {
 		    
 		                count1=count1+1;
 		         
-		         System.out.print("CHARLIE"+ " "+ +count1+ " ");
+		         System.out.print("CHARLIE"+ "      "+ +count1+ "                     ");
 		         System.out.println(differenceInSeconds22+differenceInSeconds11+differenceInSeconds33);
 	    }
 		catch(Exception e) {
